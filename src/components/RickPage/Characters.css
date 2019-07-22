@@ -1,0 +1,38 @@
+.card {
+  display:flex;
+  border-radius: 4%;
+  justify-content: stretch;
+  align-items: center;
+  flex-direction: column;
+  background-color: hsl(270, 50%, 90%);
+  margin: 1%;
+}
+
+.cards {
+  display: grid;
+  grid-gap: 12px;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  justify-content: start;
+  align-content: start;
+  justify-items: center;
+  align-items: center;
+  
+}
+
+.container.card {
+  max-width: 325px;
+  max-height: 400px;
+}
+
+img {
+  width: auto;
+  height: 100%;
+  margin: 15px;
+  padding: 0;
+}
+
+p{
+  width: 100%;
+}
